@@ -30,13 +30,3 @@ class TestRu extends TestCase
         $this->assertEquals("ntcn",\catInBeard\chartranslit\ruToEnSym("тест"));
     }
 }
-
-
-
-
-//    /**
-//     * @depends testOne
-//     */
-//    public function testTwo()
-//    {
-//    }

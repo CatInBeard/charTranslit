@@ -1,6 +1,6 @@
 <?php
 
-namespace catinbeard\chartranslit;
+namespace catInBeard\charTranslit;
 
 const ENRU = array(
     'a' => 'а',    'b' => 'б',    'v' => 'в',    'g' => 'г',    'd' => 'д',

@@ -1,5 +1,5 @@
 <?php
-namespace catinbeard\chartranslit\Transliteration;
+namespace catinbeard\chartranslit;
 
 function Transliteration(string $input,string $to="en",string $from="all",bool $type=false):string
 {
@@ -7,7 +7,7 @@ function Transliteration(string $input,string $to="en",string $from="all",bool $
     $from = mb_strtolower($from);
 
     if($from=="all"){
-        
+
     }
 
     return $output;

@@ -1,6 +1,6 @@
 <?php
 
-namespace catinbeard\chartranslit;
+namespace catInBeard\charTranslit;
 
 const RUEN = array(
     'а' => 'a',    'б' => 'b',    'в' => 'v',    'г' => 'g',    'д' => 'd',

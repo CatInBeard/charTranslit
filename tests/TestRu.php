@@ -7,15 +7,15 @@ class TestRu extends TestCase
 {
     public function testEnToRu()
     {
-        $this->assertEquals("Тест",\catinbeard\chartranslit\enToRu("Test"));
-        $this->assertEquals("Тест2",\catinbeard\chartranslit\enToRu("Test2"));
-        $this->assertEquals("тест",\catinbeard\chartranslit\enToRu("test"));
+        $this->assertEquals("Тест",\catInBeard\charTranslit\enToRu("Test"));
+        $this->assertEquals("Тест2",\catInBeard\charTranslit\enToRu("Test2"));
+        $this->assertEquals("тест",\catInBeard\chartranslit\enToRu("test"));
     }
     public function testRuToEn()
     {
-        $this->assertEquals("Test",\catinbeard\chartranslit\ruToEn("Тест"));
-        $this->assertEquals("Test2",\catinbeard\chartranslit\ruToEn("Тест2"));
-        $this->assertEquals("test",\catinbeard\chartranslit\ruToEn("тест"));
+        $this->assertEquals("Test",\catInBeard\chartranslit\ruToEn("Тест"));
+        $this->assertEquals("Test2",\catInBeard\chartranslit\ruToEn("Тест2"));
+        $this->assertEquals("test",\catInBeard\chartranslit\ruToEn("тест"));
     }
 
     

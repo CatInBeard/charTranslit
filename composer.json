@@ -10,7 +10,9 @@
         "files":[
             "src/Transliteration.php",
             "src/ruToEn.php",
-            "src/enToRu.php"
+            "src/enToRu.php",
+            "src/ruToEnSym.php",
+            "src/enToRuSym.php"
         ]
     },
     "authors": [

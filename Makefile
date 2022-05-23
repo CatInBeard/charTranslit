@@ -1,3 +1,6 @@
+all: composer test
+composer:
+	composer install
 test: testRu
 
 testRu:

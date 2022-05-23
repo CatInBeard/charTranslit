@@ -16,8 +16,10 @@ You can use main function
 To and from are case insensitive. [List of supported languages](#languages)  
 
 If you need only one transliteration, you can use  
-    1. `\catInBeard\charTranslit\enToRu`
-    2. `\catInBeard\charTranslit\ruToEn`
+    1. `\catInBeard\charTranslit\enToRu`    
+    2. `\catInBeard\charTranslit\ruToEn`   
+    3. `\catInBeard\charTranslit\enToRuSym`   
+    4. `\catInBeard\charTranslit\ruToEnSym`   
 
 ## <a name="languages"></a>Languages
     1. all (only for `from`)

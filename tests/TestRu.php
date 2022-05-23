@@ -17,8 +17,18 @@ class TestRu extends TestCase
         $this->assertEquals("Test2",\catInBeard\chartranslit\ruToEn("Тест2"));
         $this->assertEquals("test",\catInBeard\chartranslit\ruToEn("тест"));
     }
-
-    
+    public function testEnToRuSym()
+    {
+        $this->assertEquals("Еуые",\catInBeard\charTranslit\enToRuSym("Test"));
+        $this->assertEquals("Еуые2",\catInBeard\charTranslit\enToRuSym("Test2"));
+        $this->assertEquals("еуые",\catInBeard\chartranslit\enToRuSym("test"));
+    }
+    public function testRuToEnSym()
+    {
+        $this->assertEquals("Ntcn",\catInBeard\chartranslit\ruToEnSym("Тест"));
+        $this->assertEquals("Ntcn2",\catInBeard\chartranslit\ruToEnSym("Тест2"));
+        $this->assertEquals("ntcn",\catInBeard\chartranslit\ruToEnSym("тест"));
+    }
 }
 
 

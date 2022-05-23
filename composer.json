@@ -2,6 +2,7 @@
     "name": "catinbeard/chartranslit",
     "description": "Library for transliterating text from one language to another",
     "type": "library",
+    "homepage": "https://github.com/CatInBeard/charTranslit",
     "license": "MIT",
     "autoload": {
         "psr-4": {

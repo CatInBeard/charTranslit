@@ -1,0 +1,19 @@
+{
+    "name": "catinbeard/chartranslit",
+    "description": "Library for transliterating text from one language to another",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Catinbeard\\Chartranslit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Grigoriy Efimov",
+            "email": "efimov-gm@newpage.xyz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

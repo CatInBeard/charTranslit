@@ -3,7 +3,7 @@
  PHP library for transliterating text from one language to another 
 ## Usage
 You can use main function
-`\catInBeard\charTranslit\Transliteration(string $input,string $to="en",string $from="all",bool $type=false):string`
+`\catInBeard\charTranslit\Transliteration(string $string,string $to="en",string $from="all",bool $type=false):string`
 ### Parametrs
 #### input
     Input string to transliterating
@@ -22,6 +22,7 @@ If you need only one transliteration, you can use
     4. `\catInBeard\charTranslit\ruToEnSym`   
 
 ## <a name="languages"></a>Languages
+
     1. all (only for `from`)
     2. en
     3. ru

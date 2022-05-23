@@ -6,7 +6,12 @@
     "autoload": {
         "psr-4": {
             "Catinbeard\\Chartranslit\\": "src/"
-        }
+        },
+        "files":[
+            "src/Transliteration.php",
+            "src/ruToEn.php",
+            "src/enToRu.php"
+        ]
     },
     "authors": [
         {
@@ -15,5 +20,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    }
 }

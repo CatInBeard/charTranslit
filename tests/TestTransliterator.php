@@ -48,5 +48,11 @@ class TestTransliterator extends TestCase
         $this->assertEquals(\catInBeard\charTranslit\DeToEn("TestÄ"),\catInBeard\charTranslit\Transliteration("TestÄ","EN","DE"));
         $this->assertEquals(\catInBeard\charTranslit\enToDeSym("qwerty"),\catInBeard\charTranslit\Transliteration("qwerty","DE","EN",TRUE));
         $this->assertEquals(\catInBeard\charTranslit\DeToEnSym("qwertz"),\catInBeard\charTranslit\Transliteration("qwertz","EN","DE",TRUE));
-    } 
+    }
+    public function testGr(){
+        $this->assertEquals(\catInBeard\charTranslit\enToGr("Test"),\catInBeard\charTranslit\Transliteration("Test","GR"));
+        $this->assertEquals(\catInBeard\charTranslit\GrToEn("ΤεστΨ"),\catInBeard\charTranslit\Transliteration("ΤεστΨ","EN","GR"));
+        $this->assertEquals(\catInBeard\charTranslit\enToGrSym("qwerty"),\catInBeard\charTranslit\Transliteration("qwerty","Gr","EN",TRUE));
+        $this->assertEquals(\catInBeard\charTranslit\GrToEnSym("ΤεστΨ"),\catInBeard\charTranslit\Transliteration("ΤεστΨ","EN","GR",TRUE));
+    }
 }

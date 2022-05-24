@@ -13,8 +13,16 @@ function Transliteration(string $string,string $to="en",string $from="all",bool 
             case "ru":
                 $string=\catinbeard\chartranslit\ruToEnSym($string);
             break;
+            case "de":
+                $string=\catinbeard\chartranslit\deToEnSym($string);
+            break;
             case "all":
-                $string=\catinbeard\chartranslit\ruToEnSym($string);
+                if($to!="ru"){
+                    $string=\catinbeard\chartranslit\ruToEnSym($string);
+                }
+                if($to=="ru"){
+                    $string=\catinbeard\chartranslit\deToEnSym($string);
+                }
             break;
             case "en":
             break;
@@ -25,6 +33,9 @@ function Transliteration(string $string,string $to="en",string $from="all",bool 
         switch($to){
             case "ru":
                 $string=\catinbeard\chartranslit\enToRuSym($string);
+            break;
+            case "de":
+                $string=\catinbeard\chartranslit\enToDeSym($string);
             break;
             case "en":
             break;
@@ -38,8 +49,16 @@ function Transliteration(string $string,string $to="en",string $from="all",bool 
             case "ru":
                 $string=\catinbeard\chartranslit\ruToEn($string);
             break;
+            case "de":
+                $string=\catinbeard\chartranslit\deToEn($string);
+            break;
             case "all":
-                $string=\catinbeard\chartranslit\ruToEn($string);
+                if($to!="ru"){
+                    $string=\catinbeard\chartranslit\ruToEn($string);
+                }
+                if($to!="de"){
+                    $string=\catinbeard\chartranslit\deToEn($string);
+                }
             break;
             case "en":
             break;
@@ -50,6 +69,9 @@ function Transliteration(string $string,string $to="en",string $from="all",bool 
         switch($to){
             case "ru":
                 $string=\catinbeard\chartranslit\enToRu($string);
+            break;
+            case "de":
+                $string=\catinbeard\chartranslit\enToDe($string);
             break;
             case "en":
             break;

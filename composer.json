@@ -13,7 +13,11 @@
             "src/ruToEn.php",
             "src/enToRu.php",
             "src/ruToEnSym.php",
-            "src/enToRuSym.php"
+            "src/enToRuSym.php",
+            "src/deToEn.php",
+            "src/enToDe.php",
+            "src/deToEnSym.php",
+            "src/enToDeSym.php"
         ]
     },
     "authors": [

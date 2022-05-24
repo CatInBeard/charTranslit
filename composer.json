@@ -24,10 +24,22 @@
             "src/enToGrSym.php"
         ]
     },
+    "autoload-dev":{
+        "psr-4": {
+            "Catinbeard\\Chartranslit\\Tests": "src/"
+        },
+        "files":[
+            "tests/TestRu.php",
+            "tests/TestDe.php",
+            "tests/TestGr.php",
+            "TestTransliterator.php"
+        ]
+    },
     "authors": [
         {
             "name": "Grigoriy Efimov",
-            "email": "efimov-gm@newpage.xyz"
+            "email": "efimov-gm@newpage.xyz",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",

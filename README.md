@@ -23,7 +23,9 @@ If you need only one transliteration, you can use
     5. `\catInBeard\charTranslit\enToDe`    
     6. `\catInBeard\charTranslit\deToEn`   
     7. `\catInBeard\charTranslit\enToDeSym`   
-    8. `\catInBeard\charTranslit\deToEnSym`   
+    8. `\catInBeard\charTranslit\deToEnSym`  
+    9. `\catInBeard\charTranslit\enToGr`   
+    9. `\catInBeard\charTranslit\grToEn`   
 
 ## <a name="languages"></a>Languages
 
@@ -31,5 +33,6 @@ If you need only one transliteration, you can use
     2. en
     3. ru
     4. de
+    5. gr
 
 FROM `all` used only when translating from one alphabet to another. For example, Cyrillic and Latin alphabets are used. 

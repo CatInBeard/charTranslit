@@ -18,7 +18,8 @@
             "src/enToDe.php",
             "src/deToEnSym.php",
             "src/enToDeSym.php",
-            "src/grToEn.php"
+            "src/grToEn.php",
+            "src/enToGr.php"
         ]
     },
     "authors": [

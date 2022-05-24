@@ -30,6 +30,9 @@ class TestTransliterator extends TestCase
         $this->expectWarningMessageMatches('/Unknown language/');
         \catInBeard\charTranslit\Transliteration("Тест","en","UnrealLang");
     }
+    public function testOneLanguage(){
+        $this->assertEquals("Test",\catInBeard\charTranslit\Transliteration("Test","EN","En"));
+    }
     public function testRu(){
         $this->assertEquals(\catInBeard\charTranslit\enToRu("Тест"),\catInBeard\charTranslit\Transliteration("Тест","RU"));
         $this->assertEquals(\catInBeard\charTranslit\ruToEn("Test"),\catInBeard\charTranslit\Transliteration("Test","EN","RU"));

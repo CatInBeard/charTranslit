@@ -26,13 +26,13 @@
     },
     "autoload-dev":{
         "psr-4": {
-            "Catinbeard\\Chartranslit\\Tests": "src/"
+            "Catinbeard\\Chartranslit\\Tests\\": "src/"
         },
         "files":[
             "tests/TestRu.php",
             "tests/TestDe.php",
             "tests/TestGr.php",
-            "TestTransliterator.php"
+            "tests/TestTransliterator.php"
         ]
     },
     "authors": [
@@ -47,6 +47,8 @@
         "php": ">=7.1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "10.0.x-dev"
+        "phpunit/phpunit": "10.0.x-dev",
+        "phpstan/phpstan": "1.7.x-dev",
+        "squizlabs/php_codesniffer": "4.0.x-dev"
     }
 }

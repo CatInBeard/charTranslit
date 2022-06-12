@@ -19,7 +19,7 @@ const RUEN = array(
     'Э' => 'E',    'Ю' => 'Yu',   'Я' => 'Ya'
 );
 
-function ruToEn(string $input):string
+function ruToEn(string $input): string
 {
     return strtr($input, RUEN);
 }

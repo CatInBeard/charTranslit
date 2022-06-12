@@ -1,4 +1,10 @@
-# CatInBeard/charTranslit
+# CatInBeard/charTranslit  
+[![CI](https://github.com/CatInBeard/charTranslit/actions/workflows/CI.yml/badge.svg)](https://github.com/CatInBeard/charTranslit/actions/workflows/CI.yml)
+[![Downloads](https://img.shields.io/packagist/dm/catinbeard/chartranslit)](https://packagist.org/packages/catinbeard/chartranslit)
+[![License](https://img.shields.io/packagist/l/catinbeard/chartranslit)](https://packagist.org/packages/catinbeard/chartranslit)
+[![Version](https://img.shields.io/packagist/v/catinbeard/chartranslit)](https://packagist.org/packages/catinbeard/chartranslit)
+
+https://img.shields.io/packagist/v/catinbeard/chartranslit
 ## About
  PHP library for transliterating text from one language to another 
 ## Usage

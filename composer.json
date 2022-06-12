@@ -32,7 +32,7 @@
             "tests/TestRu.php",
             "tests/TestDe.php",
             "tests/TestGr.php",
-            "TestTransliterator.php"
+            "tests/TestTransliterator.php"
         ]
     },
     "authors": [

@@ -1,4 +1,5 @@
 # CatInBeard/charTranslit
+[![Linter test](https://img.shields.io/packagist/dm/catinbeard/chartranslit)](https://packagist.org/packages/catinbeard/chartranslit)
 ## About
  PHP library for transliterating text from one language to another 
 ## Usage

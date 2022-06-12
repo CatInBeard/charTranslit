@@ -7,7 +7,7 @@ namespace catInBeard\charTranslit;
 const ENDE = array(
 );
 
-function enToDe(string $input):string
+function enToDe(string $input): string
 {
     return $input;
 }

@@ -19,7 +19,7 @@ const RUENSYM = array(
     'Э' => '"',    'Ю' => '>',    'Я' => 'Z'
 );
 
-function ruToEnSym(string $input):string
+function ruToEnSym(string $input): string
 {
     return strtr($input, RUENSYM);
 }

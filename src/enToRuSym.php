@@ -12,12 +12,12 @@ const ENRUSYM = array(
     'F' => 'А',    'D' => 'В',    'U' => 'Г',    'L' => 'Д',    'T' => 'Е',
     'P' => 'З',    'B' => 'И',    'Q' => 'Й',    'R' => 'К',    'K' => 'Л',
     'V' => 'М',    'Y' => 'Н',    'J' => 'О',    'G' => 'П',    'H' => 'Р',
-    'C' => 'С',    'N' => 'Т',    'E' => 'У',    'A' => 'Ф',    'W' => 'Ц',    
+    'C' => 'С',    'N' => 'Т',    'E' => 'У',    'A' => 'Ф',    'W' => 'Ц',
     'X' => 'Ч',    'I' => 'Ш',    'O' => 'Щ',    'M' => 'Ь',    'S' => 'Ы',
     'Z' => 'Я'
 );
 
-function enToRuSym(string $input):string
+function enToRuSym(string $input): string
 {
     return strtr($input, ENRUSYM);
 }
